@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80DBFF1258F81A200DF2E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DBFF0258F81A200DF2E4A /* AppDelegate.swift */; };
+		D80DBFF3258F81A200DF2E4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DBFF2258F81A200DF2E4A /* SceneDelegate.swift */; };
+		D80DBFF5258F81A200DF2E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DBFF4258F81A200DF2E4A /* ViewController.swift */; };
+		D80DBFF8258F81A200DF2E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80DBFF6258F81A200DF2E4A /* Main.storyboard */; };
+		D80DBFFA258F81A600DF2E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80DBFF9258F81A600DF2E4A /* Assets.xcassets */; };
+		D80DBFFD258F81A600DF2E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80DBFFB258F81A600DF2E4A /* LaunchScreen.storyboard */; };
+		D80DC008258F81A600DF2E4A /* GYNetworkToolDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DC007258F81A600DF2E4A /* GYNetworkToolDemoTests.swift */; };
+		D80DC013258F81A600DF2E4A /* GYNetworkToolDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DC012258F81A600DF2E4A /* GYNetworkToolDemoUITests.swift */; };
+		D80DC025258F81DF00DF2E4A /* GYNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DC024258F81DF00DF2E4A /* GYNetworkTool.swift */; };
+		DA032F2AB016048B8533533B /* libPods-GYNetworkToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C17A10589C8EAB7712D691 /* libPods-GYNetworkToolDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80DC004258F81A600DF2E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80DBFE5258F81A200DF2E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80DBFEC258F81A200DF2E4A;
+			remoteInfo = GYNetworkToolDemo;
+		};
+		D80DC00F258F81A600DF2E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80DBFE5258F81A200DF2E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80DBFEC258F81A200DF2E4A;
+			remoteInfo = GYNetworkToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25C17A10589C8EAB7712D691 /* libPods-GYNetworkToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GYNetworkToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA9902A61D18C7552E84DF2 /* Pods-GYNetworkToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYNetworkToolDemo.release.xcconfig"; path = "Target Support Files/Pods-GYNetworkToolDemo/Pods-GYNetworkToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A90133269BA42A4B998D41F4 /* Pods-GYNetworkToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYNetworkToolDemo.debug.xcconfig"; path = "Target Support Files/Pods-GYNetworkToolDemo/Pods-GYNetworkToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D80DBFED258F81A200DF2E4A /* GYNetworkToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYNetworkToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80DBFF0258F81A200DF2E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80DBFF2258F81A200DF2E4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D80DBFF4258F81A200DF2E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80DBFF7258F81A200DF2E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80DBFF9258F81A600DF2E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80DBFFC258F81A600DF2E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80DBFFE258F81A600DF2E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80DC003258F81A600DF2E4A /* GYNetworkToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYNetworkToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80DC007258F81A600DF2E4A /* GYNetworkToolDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYNetworkToolDemoTests.swift; sourceTree = "<group>"; };
+		D80DC009258F81A600DF2E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80DC00E258F81A600DF2E4A /* GYNetworkToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYNetworkToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80DC012258F81A600DF2E4A /* GYNetworkToolDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYNetworkToolDemoUITests.swift; sourceTree = "<group>"; };
+		D80DC014258F81A600DF2E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80DC024258F81DF00DF2E4A /* GYNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYNetworkTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80DBFEA258F81A200DF2E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA032F2AB016048B8533533B /* libPods-GYNetworkToolDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80DC000258F81A600DF2E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80DC00B258F81A600DF2E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C2892A3616E82C719DCEE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C17A10589C8EAB7712D691 /* libPods-GYNetworkToolDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF57B49D9C2EBAEA6D033E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A90133269BA42A4B998D41F4 /* Pods-GYNetworkToolDemo.debug.xcconfig */,
+				8CA9902A61D18C7552E84DF2 /* Pods-GYNetworkToolDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D80DBFE4258F81A200DF2E4A = {
+			isa = PBXGroup;
+			children = (
+				D80DC023258F81C400DF2E4A /* Classes */,
+				D80DBFEF258F81A200DF2E4A /* GYNetworkToolDemo */,
+				D80DC006258F81A600DF2E4A /* GYNetworkToolDemoTests */,
+				D80DC011258F81A600DF2E4A /* GYNetworkToolDemoUITests */,
+				D80DBFEE258F81A200DF2E4A /* Products */,
+				CBF57B49D9C2EBAEA6D033E7 /* Pods */,
+				27C2892A3616E82C719DCEE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D80DBFEE258F81A200DF2E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80DBFED258F81A200DF2E4A /* GYNetworkToolDemo.app */,
+				D80DC003258F81A600DF2E4A /* GYNetworkToolDemoTests.xctest */,
+				D80DC00E258F81A600DF2E4A /* GYNetworkToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80DBFEF258F81A200DF2E4A /* GYNetworkToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D80DBFF0258F81A200DF2E4A /* AppDelegate.swift */,
+				D80DBFF2258F81A200DF2E4A /* SceneDelegate.swift */,
+				D80DBFF4258F81A200DF2E4A /* ViewController.swift */,
+				D80DBFF6258F81A200DF2E4A /* Main.storyboard */,
+				D80DBFF9258F81A600DF2E4A /* Assets.xcassets */,
+				D80DBFFB258F81A600DF2E4A /* LaunchScreen.storyboard */,
+				D80DBFFE258F81A600DF2E4A /* Info.plist */,
+			);
+			path = GYNetworkToolDemo;
+			sourceTree = "<group>";
+		};
+		D80DC006258F81A600DF2E4A /* GYNetworkToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80DC007258F81A600DF2E4A /* GYNetworkToolDemoTests.swift */,
+				D80DC009258F81A600DF2E4A /* Info.plist */,
+			);
+			path = GYNetworkToolDemoTests;
+			sourceTree = "<group>";
+		};
+		D80DC011258F81A600DF2E4A /* GYNetworkToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80DC012258F81A600DF2E4A /* GYNetworkToolDemoUITests.swift */,
+				D80DC014258F81A600DF2E4A /* Info.plist */,
+			);
+			path = GYNetworkToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		D80DC023258F81C400DF2E4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D80DC024258F81DF00DF2E4A /* GYNetworkTool.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80DBFEC258F81A200DF2E4A /* GYNetworkToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80DC017258F81A600DF2E4A /* Build configuration list for PBXNativeTarget "GYNetworkToolDemo" */;
+			buildPhases = (
+				1494FF6CF42838DDC0BEF412 /* [CP] Check Pods Manifest.lock */,
+				D80DBFE9258F81A200DF2E4A /* Sources */,
+				D80DBFEA258F81A200DF2E4A /* Frameworks */,
+				D80DBFEB258F81A200DF2E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYNetworkToolDemo;
+			productName = GYNetworkToolDemo;
+			productReference = D80DBFED258F81A200DF2E4A /* GYNetworkToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80DC002258F81A600DF2E4A /* GYNetworkToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80DC01A258F81A600DF2E4A /* Build configuration list for PBXNativeTarget "GYNetworkToolDemoTests" */;
+			buildPhases = (
+				D80DBFFF258F81A600DF2E4A /* Sources */,
+				D80DC000258F81A600DF2E4A /* Frameworks */,
+				D80DC001258F81A600DF2E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80DC005258F81A600DF2E4A /* PBXTargetDependency */,
+			);
+			name = GYNetworkToolDemoTests;
+			productName = GYNetworkToolDemoTests;
+			productReference = D80DC003258F81A600DF2E4A /* GYNetworkToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80DC00D258F81A600DF2E4A /* GYNetworkToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80DC01D258F81A600DF2E4A /* Build configuration list for PBXNativeTarget "GYNetworkToolDemoUITests" */;
+			buildPhases = (
+				D80DC00A258F81A600DF2E4A /* Sources */,
+				D80DC00B258F81A600DF2E4A /* Frameworks */,
+				D80DC00C258F81A600DF2E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80DC010258F81A600DF2E4A /* PBXTargetDependency */,
+			);
+			name = GYNetworkToolDemoUITests;
+			productName = GYNetworkToolDemoUITests;
+			productReference = D80DC00E258F81A600DF2E4A /* GYNetworkToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80DBFE5258F81A200DF2E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D80DBFEC258F81A200DF2E4A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D80DC002258F81A600DF2E4A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D80DBFEC258F81A200DF2E4A;
+					};
+					D80DC00D258F81A600DF2E4A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D80DBFEC258F81A200DF2E4A;
+					};
+				};
+			};
+			buildConfigurationList = D80DBFE8258F81A200DF2E4A /* Build configuration list for PBXProject "GYNetworkToolDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80DBFE4258F81A200DF2E4A;
+			productRefGroup = D80DBFEE258F81A200DF2E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80DBFEC258F81A200DF2E4A /* GYNetworkToolDemo */,
+				D80DC002258F81A600DF2E4A /* GYNetworkToolDemoTests */,
+				D80DC00D258F81A600DF2E4A /* GYNetworkToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80DBFEB258F81A200DF2E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80DBFFD258F81A600DF2E4A /* LaunchScreen.storyboard in Resources */,
+				D80DBFFA258F81A600DF2E4A /* Assets.xcassets in Resources */,
+				D80DBFF8258F81A200DF2E4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80DC001258F81A600DF2E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80DC00C258F81A600DF2E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1494FF6CF42838DDC0BEF412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYNetworkToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80DBFE9258F81A200DF2E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80DBFF5258F81A200DF2E4A /* ViewController.swift in Sources */,
+				D80DBFF1258F81A200DF2E4A /* AppDelegate.swift in Sources */,
+				D80DC025258F81DF00DF2E4A /* GYNetworkTool.swift in Sources */,
+				D80DBFF3258F81A200DF2E4A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80DBFFF258F81A600DF2E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80DC008258F81A600DF2E4A /* GYNetworkToolDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80DC00A258F81A600DF2E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80DC013258F81A600DF2E4A /* GYNetworkToolDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80DC005258F81A600DF2E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80DBFEC258F81A200DF2E4A /* GYNetworkToolDemo */;
+			targetProxy = D80DC004258F81A600DF2E4A /* PBXContainerItemProxy */;
+		};
+		D80DC010258F81A600DF2E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80DBFEC258F81A200DF2E4A /* GYNetworkToolDemo */;
+			targetProxy = D80DC00F258F81A600DF2E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80DBFF6258F81A200DF2E4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80DBFF7258F81A200DF2E4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80DBFFB258F81A600DF2E4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80DBFFC258F81A600DF2E4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80DC015258F81A600DF2E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80DC016258F81A600DF2E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80DC018258F81A600DF2E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90133269BA42A4B998D41F4 /* Pods-GYNetworkToolDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GYNetworkToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ronglian.GYNetworkToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80DC019258F81A600DF2E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA9902A61D18C7552E84DF2 /* Pods-GYNetworkToolDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GYNetworkToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ronglian.GYNetworkToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D80DC01B258F81A600DF2E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GYNetworkToolDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ronglian.GYNetworkToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYNetworkToolDemo.app/GYNetworkToolDemo";
+			};
+			name = Debug;
+		};
+		D80DC01C258F81A600DF2E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GYNetworkToolDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ronglian.GYNetworkToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYNetworkToolDemo.app/GYNetworkToolDemo";
+			};
+			name = Release;
+		};
+		D80DC01E258F81A600DF2E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GYNetworkToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ronglian.GYNetworkToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GYNetworkToolDemo;
+			};
+			name = Debug;
+		};
+		D80DC01F258F81A600DF2E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GYNetworkToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ronglian.GYNetworkToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GYNetworkToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80DBFE8258F81A200DF2E4A /* Build configuration list for PBXProject "GYNetworkToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80DC015258F81A600DF2E4A /* Debug */,
+				D80DC016258F81A600DF2E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80DC017258F81A600DF2E4A /* Build configuration list for PBXNativeTarget "GYNetworkToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80DC018258F81A600DF2E4A /* Debug */,
+				D80DC019258F81A600DF2E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80DC01A258F81A600DF2E4A /* Build configuration list for PBXNativeTarget "GYNetworkToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80DC01B258F81A600DF2E4A /* Debug */,
+				D80DC01C258F81A600DF2E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80DC01D258F81A600DF2E4A /* Build configuration list for PBXNativeTarget "GYNetworkToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80DC01E258F81A600DF2E4A /* Debug */,
+				D80DC01F258F81A600DF2E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80DBFE5258F81A200DF2E4A /* Project object */;
+}
